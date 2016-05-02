@@ -4,5 +4,5 @@
 * [First Chapter](chapter1.md)
 * [HotKeys](hotkeys.md)
 * Products
-   * Stock-taking
+   * [Stock-taking](stock-taking.md)
 
