@@ -1,0 +1,1 @@
+<blockquote class="notice">This feature is requires an upgrade to <a href="http://woopos.com.au/pro">WooCommerce POS Pro</a>.</blockquote>
