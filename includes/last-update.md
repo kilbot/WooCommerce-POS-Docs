@@ -1,1 +1,1 @@
-{{ file.mtime }}
+<small>Last updated: {{ file.mtime }}</small>
