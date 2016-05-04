@@ -1,0 +1,3 @@
+<header>
+	#{{ page.title }}
+</header>
