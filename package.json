@@ -1,0 +1,21 @@
+{
+  "name": "woocommerce-pos-manual",
+  "version": "0.4.5",
+  "description": "Manual for WooCommerce POS",
+  "dependencies": {
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-versions": "^2.1.3",
+    "gitbook-theme-clarity": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilbot/WooCommerce-POS-Manual.git"
+  },
+  "author": "kilbot",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/kilbot/WooCommerce-POS-Manual/issues"
+  },
+  "homepage": "http://docs.wcpos.com.au"
+}
