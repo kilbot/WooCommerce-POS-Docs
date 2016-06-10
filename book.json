@@ -1,11 +1,23 @@
 {
-  "plugins": ["ga", "versions"],
+  "title": "WooCommerce POS Manual",
+  "plugins": [
+    "image-captions",
+    {
+      "name": "disqus",
+      "version": "git+https://github.com/kilbot/plugin-disqus.git"
+    },
+    {
+      "name": "versions",
+      "version": "git+https://github.com/kilbot/plugin-versions.git"
+    }
+  ],
   "pluginsConfig": {
-      "ga": {
-          "token": "UA-65534-23"
-      },
-      "versions": {
-        "type": "branches"
-      }
+    "versions": {
+      "type": "branches",
+      "container": ""
+    },
+    "disqus": {
+      "shortName": "woocommercepos"
+    }
   }
 }
