@@ -7,4 +7,4 @@
     * [Custom Barcode Field](products/barcode-scanning/custom-barcode-field.md)
   * [Stock-taking](products/stock-taking.md)
 * [Cart](cart.md)
-* [Hotkeys](Hotkeys.md)
+* [Hotkeys](hotkeys.md)
