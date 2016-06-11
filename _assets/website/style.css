@@ -6,10 +6,12 @@ figure {
 }
 
 .book-versions {
-    padding: 10px 15px;
+    padding: 5px 15px 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 10px;
 }
 
 .book-versions strong {
     display: block;
+    margin-bottom: 10px;
 }

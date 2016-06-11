@@ -23,10 +23,10 @@
       $.getJSON('/gitbook/api/versions/branches', function (versions) {
         var languages = {{ languages.list|dump|safe }};
         var version = $.map(versions, function(o) { if(o["current"]) return o["name"]; }).shift();
-        var container = $('.list-group');
+        var container = $('.languages');
 
         $.each(languages, function(index, lang){
-          container.append('<a class="list-group-item" href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a>');
+          container.append('<li><a href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a></li>');
         });
       });
     });
