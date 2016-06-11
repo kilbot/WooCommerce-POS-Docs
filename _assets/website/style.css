@@ -4,3 +4,12 @@ figure {
     margin: 1.5em auto;
     text-align: center;
 }
+
+.book-versions {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.book-versions strong {
+    display: block;
+}

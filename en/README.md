@@ -1,5 +1,9 @@
 ---
+title: Products
+description:  
+tags: 
 search: false
+comments: false
 ---
 
 # docs.wcpos.com
