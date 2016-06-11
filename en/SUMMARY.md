@@ -1,5 +1,7 @@
 # Table of Contents
 
+* [Installation](installation.md)
+  * [Installing WooCommerce POS Pro](installation/woocommerce-pos-pro.md)
 * [Products](products.md)
   * [Searching and Filtering](products/searching-filtering.md)
   * [POS Only Products](products/pos-only-products.md)

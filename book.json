@@ -1,7 +1,11 @@
 {
   "title": "WooCommerce POS Manual",
+  "links": {
+    "sidebar": []
+  },
   "plugins": [
     "image-captions",
+    "expandable-chapters",
     {
       "name": "disqus",
       "version": "git+https://github.com/kilbot/plugin-disqus.git"
