@@ -8,7 +8,7 @@ Hotkeys are keyboard shortcuts which can be used to quickly trigger actions in W
 
 | Key | Description |
 | -- | -- |
-| ? | Help screen |
-| B | Barcode mode |
-| V | Search mode |
-| S | Sync with server |
+| <div align="center">?</div> | Help screen |
+| <div align="center">B</div> | Barcode mode |
+| <div align="center">V</div> | Search mode |
+| <div align="center">S</div> | Sync with server |

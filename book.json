@@ -4,6 +4,8 @@
     "sidebar": []
   },
   "plugins": [
+    "-sharing",
+    "gist",
     "image-captions",
     "expandable-chapters",
     {
