@@ -6,6 +6,7 @@
   "plugins": [
     "-sharing",
     "gist",
+    "sitemap",
     "image-captions",
     "expandable-chapters",
     {
@@ -24,6 +25,9 @@
     },
     "disqus": {
       "shortName": "woocommercepos"
+    },
+    "sitemap": {
+      "hostname": "http://docs.wcpos.com/"
     }
   }
 }
