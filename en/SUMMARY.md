@@ -1,7 +1,7 @@
 # Table of Contents
 
-[//]: * [Installation](installation.md)
-[//]: * [Installing WooCommerce POS Pro](installation/woocommerce-pos-pro.md)
+* [Installation](installation.md)
+  * [Installing WooCommerce POS Pro](installation/woocommerce-pos-pro.md)
 * [Products](products.md)
   * [Searching and Filtering](products/searching-filtering.md)
   * [POS Only Products](products/pos-only-products.md)
@@ -35,5 +35,4 @@
   * [Plugin Conflicts](support/plugin-conflicts.md)
   * [POS Performance](support/pos-performance.md)
   * [Debugging](support/debugging.md)
-  * [Installing WooCommerce POS Pro](support/installing-woocommerce-pos-pro.md)
   * [Security](support/security.md)
