@@ -15,8 +15,8 @@
     <div class="page-inner" style="text-align:center;">
       <img src="http://wcpos.com/wp-content/uploads/2014/06/woopos-logo.png" alt="WooCommerce POS" style="max-width:200px;">
       <h1>WooCommerce POS Manual</h1>
-      Select a language:
-      <ul class="languages"></ul>
+      <p>Select a language:</p>
+      <div class="languages"></div>
     </div>
   </div>
 
@@ -29,7 +29,7 @@
         var container = $('.languages');
 
         $.each(languages, function(index, lang){
-          container.append('<li><a href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a></li>');
+          container.append('<p><a href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a></p>');
         });
       });
     });
