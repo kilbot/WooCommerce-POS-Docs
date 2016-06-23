@@ -17,57 +17,13 @@ Server-side performance refers to actions such as downloading a page of products
 
 The [demo site](http://demo.wcpos.com/pos) represents a 'best case' senario. The demo site uses [a very good web host](/wpe) and has a very small number of plugins activated.
 
-<table class="table">
+| Process | Average speeds for [demo.wcpos.com/pos](http://demo.wcpos.com/pos)<sup>*</sup> | 
+| - | - |
+| Fetching 10 products | 1 - 2 seconds |
+| Processing a Cash sale | 1 - 2 seconds |
+| Processing a Stripe sale | 2 - 3 seconds |
 
-<thead>
-
-<tr>
-
-<th colspan="2">Average speeds for [demo.wcpos.com/pos](http://demo.wcpos.com/pos)<sup>*</sup></th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>Fetching 10 products</td>
-
-<td>1 - 2 seconds</td>
-
-</tr>
-
-<tr>
-
-<td>Processing a Cash sale</td>
-
-<td>1 - 2 seconds</td>
-
-</tr>
-
-<tr>
-
-<td>Processing a Stripe sale</td>
-
-<td>2 - 3 seconds</td>
-
-</tr>
-
-</tbody>
-
-<tfoot>
-
-<tr>
-
-<td colspan="2"><sup>*</sup> <small>average times for a broadband connection. Times may vary depending on your internet speed.</small></td>
-
-</tr>
-
-</tfoot>
-
-</table>
+<small><sup>*</sup> average times for a broadband connection. Times may vary depending on your internet speed.</small>
 
 If your POS is taking significantly longer than the above times you may wish to conduct the following tests:
 
