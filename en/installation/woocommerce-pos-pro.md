@@ -4,17 +4,17 @@ description: If you have purchased the Pro version please follow the steps below
 tags: downloads, installation, license, pro, updates
 ---
 
-[WooCommerce POS Pro](http://wcpos.com/pro) is a paid plugin which adds functionality to the free [WooCommerce POS plugin](http://wordpress.org/plugins/woocommerce-pos/). If you have purchased a license for WooCommerce POS Pro please follow the steps below to install and activate the plugin:
+{% hint style='info' %}
+[WooCommerce POS Pro](http://wcpos.com/pro) is a paid plugin which adds functionality to the free [WooCommerce POS plugin](http://wordpress.org/plugins/woocommerce-pos/). 
+{% endhint %}
+
+If you have purchased a license for WooCommerce POS Pro please follow the steps below to install and activate the plugin:
 
 1.  Go to: [https://wcpos.com/my-account/](https://wcpos.com/my-account/)
 2.  Under **My Downloads**, click the download link and save the plugin to your desktop.
-3.  Then go to your site, login and go to the **Add New Plugin** page, eg: http://_<yourstore.com>_/wp-admin/plugin-install.php?tab=upload
+3.  Then go to your site, login and go to `WP Admin > Plugins > Add New > Upload Plugin`
 4.  Upload the plugin zip file from your desktop and activate.
-5.  Next, go to the **POS Settings** page and enter your License Key and License Email to complete the activation.
-
-{% hint style='info' %}
-**Note:** you need WooCommerce POS (the free version) installed together with Pro. Pro adds functionality to the free plugin. 
-{% endhint %}
+5.  Next, go to `WP Admin > POS > Settings > License` and enter your License Key and License Email to complete the activation.
 
 ![My Downloads](http://wcpos.com/wp-content/uploads/2014/07/my-download.png "You can download WooCommerce POS Pro on your account page")
 

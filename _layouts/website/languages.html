@@ -16,24 +16,14 @@
       <img src="http://wcpos.com/wp-content/uploads/2014/06/woopos-logo.png" alt="WooCommerce POS" style="max-width:200px;">
       <h1>WooCommerce POS Manual</h1>
       <p>Select a language:</p>
-      <div class="languages"></div>
+      <div class="languages">
+        {%  for lang in languages.list %}
+        <p><a href="{{ (lang.id + "/README.md")|contentURL }}">{{ lang.title }}</a></p>
+        {% endfor %}
+      </div>
     </div>
   </div>
 
-  <script src="{{ 'gitbook.js'|resolveAsset }}"></script>
-  <script>
-    require(['gitbook', 'jQuery'], function (gitbook, $) {
-      $.getJSON('/gitbook/api/versions/branches', function (versions) {
-        var languages = {{ languages.list|dump|safe }};
-        var version = $.map(versions, function(o) { if(o["current"]) return o["name"]; }).shift();
-        var container = $('.languages');
-
-        $.each(languages, function(index, lang){
-          container.append('<p><a href="/v/' + version + '/' + lang.id + '/">' + lang.title + '</a></p>');
-        });
-      });
-    });
-  </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
