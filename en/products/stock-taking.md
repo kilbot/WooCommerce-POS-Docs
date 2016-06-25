@@ -8,4 +8,6 @@ tags:
 This feature is requires an upgrade to [WooCommerce POS Pro](http://wcpos.com/pro).
 {% endhint %}
 
-![Product Stocktaking](http://wcpos.com/wp-content/uploads/2015/06/product-stocktake.png)
+Selecting the `Products` page from the `POS Menu` will open a quick edit page for your WooCommerce products.
+
+![Quickly update stock quantity and pricing](http://wcpos.com/wp-content/uploads/2015/06/product-stocktake.png)

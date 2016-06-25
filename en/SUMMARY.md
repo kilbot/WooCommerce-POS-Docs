@@ -5,6 +5,7 @@
 * [Products](products.md)
   * [Searching and Filtering](products/searching-filtering.md)
   * [POS Only Products](products/pos-only-products.md)
+  * [Miscellaneous Products](products/miscellaneous-products.md)
   * [Barcode Scanning](products/barcode-scanning.md)
     * [Custom Barcode Field](products/barcode-scanning/custom-barcode-field.md)
   * [Stock-taking](products/stock-taking.md)
