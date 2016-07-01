@@ -13,7 +13,7 @@ Please see the [POS Only Products](/products/pos-only-products.html) doc for mor
 
 A new order will initialise with the default POS customer. Common options are:
  
-* **Guest:** Orders are not associated with any user id
+* **Guest:** POS orders are not associated with any user id
 * **Cashier:** POS orders are associated with the logged in user's account
 * **Walk-in Customer:** POS orders are associated with a custom user account (_note: this account will need to be created_)
 

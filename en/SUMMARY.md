@@ -20,7 +20,6 @@
   * [Emails](checkout/emails.md)
   * [Payment Gateways](checkout/payment-gateways.md)
 * [Receipts](receipts.md)
-  * [Automatically Print Receipt](receipts/automatically-print-receipt.md)
 * [Orders](orders.md)
 * [Customers](customers.md)
 * [Coupons](coupons.md)
