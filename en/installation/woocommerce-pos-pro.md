@@ -11,7 +11,7 @@ tags: downloads, installation, license, pro, updates
 If you have purchased a license for WooCommerce POS Pro please follow the steps below to install and activate the plugin:
 
 1.  Go to: [https://wcpos.com/my-account/](https://wcpos.com/my-account/)
-2.  Under **My Downloads**, click the download link and save the plugin to your desktop.
+2.  Under **Downloads**, click the download link and save the plugin to your desktop.
 3.  Then go to your site, login and go to `WP Admin > Plugins > Add New > Upload Plugin`
 4.  Upload the plugin zip file from your desktop and activate.
 5.  Next, go to `WP Admin > POS > Settings > License` and enter your License Key and License Email to complete the activation.

@@ -19,6 +19,7 @@ Please make sure the version number of the documentation matches the version of 
 ### Other documentation
 
 A list of **Frequently Asked Questions** are available at [faq.wcpos.com](http://faq.wcpos.com). 
+**Developer documentation** is available at [api.wcpos.com](http://api.wcpos.com).
 
 ### Help and Support
 
