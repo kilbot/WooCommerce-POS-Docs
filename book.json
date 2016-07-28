@@ -5,6 +5,7 @@
   },
   "plugins": [
     "-sharing",
+    "ga",
     "gist",
     "comment",
     "image-captions",
@@ -36,6 +37,9 @@
     },
     "sitemap": {
       "hostname": "http://docs.wcpos.com"
+    },
+    "ga": {
+      "token": "UA-65534-23"
     }
   }
 }
