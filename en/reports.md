@@ -5,7 +5,7 @@ tags: data, export, reports, sales
 ---
 
 {% hint style='info' %}
-This feature is requires an upgrade to [WooCommerce POS Pro](http://wcpos.com/pro).
+This feature requires an upgrade to [WooCommerce POS Pro](http://wcpos.com/pro).
 {% endhint %}
 
 ![Example of POS vs Online Sales report](http://wcpos.com/wp-content/uploads/2015/06/sales-report-1024x1019.png "Example of POS vs Online Sales report")
