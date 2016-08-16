@@ -15,7 +15,7 @@ To enable POS Only Products go to <code>WP Admin > POS > Settings > General</cod
 ![Enable POS Only Products](http://wcpos.com/wp-content/uploads/2014/09/enable-pos-only-products.png "Enable POS Only Products")
 
 Enabling POS only products will require an extra database lookup and therefore incur an small performance hit. 
-If you do not use POS only products it is recommended you leave this option disabled. 
+If you do not use POS Only Products it is recommended you leave this option disabled. 
 
 ### POS & Online Visibility
 
