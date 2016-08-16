@@ -26,6 +26,7 @@
 * [Hotkeys](hotkeys.md)
 * [Reports](reports.md)
 * [Stores](stores.md)
+  * [Multi-inventory](stores/multi-inventory.md)
   * [Opening Hours](stores/opening-hours.md)
 * [Settings](settings.md)
   * [General](settings/general.md)
