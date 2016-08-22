@@ -20,6 +20,8 @@
   * [Emails](checkout/emails.md)
   * [Payment Gateways](checkout/payment-gateways.md)
 * [Receipts](receipts.md)
+  * [Print Method](receipts/print-method.html)
+  * [Template Language](receipts/template-language.html)
 * [Orders](orders.md)
 * [Customers](customers.md)
 * [Coupons](coupons.md)
