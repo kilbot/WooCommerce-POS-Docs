@@ -19,4 +19,4 @@ Modern web applications, such as WooCommerce POS, use a REST/HTTP approach with 
 In some rare cases a web host may choose to block some of these HTTP methods. 
 If your web host blocks modern RESTful HTTP methods you will need to enable legacy server support.
 
-![Legacy Server Support](http://wcpos.com/wp-content/uploads/2016/06/enable-legacy-server-support.png "WP Admin > POS > Settings > Tools > Enable legacy server support")
+![Legacy Server Support](https://wcpos.com/wp-content/uploads/2016/06/enable-legacy-server-support.png "WP Admin > POS > Settings > Tools > Enable legacy server support")

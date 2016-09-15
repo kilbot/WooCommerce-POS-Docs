@@ -40,7 +40,7 @@ WooCommerce POS uses JavaScript, HTML and CSS to display the data retrieved from
 To improve client-side performance the POS stores the data in the browser using [IndexedDB](https://en.wikipedia.org/wiki/Indexed_Database_API). 
 For example, when a product is fetched for the first time a request will be sent to the server, once the product data is downloaded it will be stored locally so that subsequent searches are instantaneous. 
 
-![An example of product stored locally.](http://wcpos.com/wp-content/uploads/2015/07/local-products.png "An example of products being stored locally")
+![An example of product stored locally.](https://wcpos.com/wp-content/uploads/2015/07/local-products.png "An example of products being stored locally")
 
 IndexedDB data persists even when you close the browser or restart your computer. 
 If you notice that your product data is out of sync for any reason, you can [clear the local storage](http://faq.wcpos.com/en/clear-local-data.html) and fetch a fresh set of data from the server.

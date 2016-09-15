@@ -12,7 +12,7 @@ Type (or copy & paste) `BARCODE` and an item will be added to the cart.
 
 Type (or copy & paste) `VARIATION1` and a variation will be added to the cart. 
 
-![Barcode Scanning in WooCommerce POS](http://wcpos.com/wp-content/uploads/2014/07/barcode-search.png "Filtering by the SKU field in WooCommerce POS")
+![Barcode Scanning in WooCommerce POS](https://wcpos.com/wp-content/uploads/2014/07/barcode-search.png "Filtering by the SKU field in WooCommerce POS")
 
 The following features are being planned for future releases:
 
@@ -24,4 +24,4 @@ The following features are being planned for future releases:
 
 **Since Version 0.3.1:** There is now a dedicated mode for Barcode scanning. You can switch between 'Search' mode and 'Scan Barcode' by clicking on the button to the left of the search field. 
 
-![Search Scan Barcode modes](http://wcpos.com/wp-content/uploads/2014/07/search-scan-mode.png)
+![Search Scan Barcode modes](https://wcpos.com/wp-content/uploads/2014/07/search-scan-mode.png)

@@ -8,13 +8,13 @@ tags:
 This feature is requires an upgrade to [WooCommerce POS Pro](http://wcpos.com/pro).
 {% endhint %}
 
-![Example of stores list](http://wcpos.com/wp-content/uploads/2016/08/stores-page.png "Example of stores list")
+![Example of stores list](https://wcpos.com/wp-content/uploads/2016/08/stores-page.png "Example of stores list")
 
 WooCommerce POS Pro adds the ability to create separate *stores* for your physical sales. 
 Stores can have their own address, logo and other details for use on the [receipt template](receipts.html). 
 Stores can use different tax rates and Sales can be separated by store for [reporting](reports.html#sales-by-store).
 
-![Example of store edit page](http://wcpos.com/wp-content/uploads/2016/08/edit-store-page.png "Example of store edit page")
+![Example of store edit page](https://wcpos.com/wp-content/uploads/2016/08/edit-store-page.png "Example of store edit page")
 
 ### Coming features
 

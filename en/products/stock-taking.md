@@ -10,4 +10,4 @@ This feature is requires an upgrade to [WooCommerce POS Pro](http://wcpos.com/pr
 
 Selecting the `Products` page from the `POS Menu` will open a quick edit page for your WooCommerce products.
 
-![Quickly update stock quantity and pricing](http://wcpos.com/wp-content/uploads/2015/06/product-stocktake.png)
+![Quickly update stock quantity and pricing](https://wcpos.com/wp-content/uploads/2015/06/product-stocktake.png)

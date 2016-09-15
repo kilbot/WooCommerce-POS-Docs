@@ -6,7 +6,7 @@ tags:
 
 ### Automatic installation (recommended)
 
-![](http://wcpos.com/wp-content/uploads/2016/06/wcpos-install.gif "Install and activate WooCommerce POS in less than 1 minute")
+![](https://wcpos.com/wp-content/uploads/2016/06/wcpos-install.gif "Install and activate WooCommerce POS in less than 1 minute")
 
 1. Go to `WP Admin > Plugins > Add New`
 2. Search for `WooCommerce POS` in the WordPress Plugin Directory

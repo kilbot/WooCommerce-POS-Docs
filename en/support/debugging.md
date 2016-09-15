@@ -11,7 +11,7 @@ This article is intended for web developers, debugging is not something the aver
 WooCommerce POS is largely a JavaScript web application - and as such - most debugging is done through the [browser console](http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors). 
 If debugging is enabled, WooCommerce POS will log various messages to the console which may assist in diagnosing problems.
 
-![An open JavaScript Console in Chrome for the Mac](http://wcpos.com/wp-content/uploads/2016/06/javascript-console.png "An open JavaScript Console in Chrome for the Mac")
+![An open JavaScript Console in Chrome for the Mac](https://wcpos.com/wp-content/uploads/2016/06/javascript-console.png "An open JavaScript Console in Chrome for the Mac")
 
 ### Turn on debugging using wp-config.php
 

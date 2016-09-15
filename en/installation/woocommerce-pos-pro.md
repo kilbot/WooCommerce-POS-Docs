@@ -16,7 +16,7 @@ If you have purchased a license for WooCommerce POS Pro please follow the steps
 4.  Upload the plugin zip file from your desktop and activate.
 5.  Next, go to `WP Admin > POS > Settings > License` and enter your License Key and License Email to complete the activation.
 
-![My Downloads](http://wcpos.com/wp-content/uploads/2014/07/my-download.png "You can download WooCommerce POS Pro on your account page")
+![My Downloads](https://wcpos.com/wp-content/uploads/2014/07/my-download.png "You can download WooCommerce POS Pro on your account page")
 
 When new versions are ready they will appear in your Updates dashboard. 
 For information on what I am currently working on, please key an eye on the [Roadmap](http://wcpos.com/roadmap/). 

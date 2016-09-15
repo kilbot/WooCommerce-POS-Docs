@@ -9,7 +9,7 @@ By default, the roles **Administrator** and **Shop Manager** are enabled with al
 It is recommended you keep the default settings unless you are aware of the consequences. 
 For example, granting the `publish_shop_orders` to the `Subscribers` role would be a _very_ bad idea. 
 
-![Example of POS Access settings](http://wcpos.com/wp-content/uploads/2015/05/user-capabilities.png "Example of POS Access settings")
+![Example of POS Access settings](https://wcpos.com/wp-content/uploads/2015/05/user-capabilities.png "Example of POS Access settings")
 
 | Capability | Access |
 | - | - |

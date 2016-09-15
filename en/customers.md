@@ -18,7 +18,7 @@ When using [WordPress multisite](https://codex.wordpress.org/Create_A_Network) t
 
 First, in order for non Super Admins to **create** new customers, please enable the following option in `Network Admin > Settings`. 
 
-![Multisite option to create new users](http://wcpos.com/wp-content/uploads/2016/09/multisite-create-new-users.png "Multisite option to create new users")
+![Multisite option to create new users](https://wcpos.com/wp-content/uploads/2016/09/multisite-create-new-users.png "Multisite option to create new users")
 
 Additionally, in order for non Super Admins to **edit** customer details, you will need to add the `manage_network_users` capability to the cashier.
 
