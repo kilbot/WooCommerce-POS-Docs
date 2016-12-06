@@ -59,7 +59,7 @@ list_users
 read_private_shop_coupons
 ```
 
-If you want to allow Editors to also manage Products add the following capabalities:
+If you want to allow Editors to also manage Products add the following capabilities:
 
 ```
 edit_product
