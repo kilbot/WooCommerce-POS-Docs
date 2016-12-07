@@ -43,7 +43,10 @@ For instance, using the _Pro Version_ of the plugin, the Cashier role could be a
 
 If more options are needed regarding roles & capabilities one can refer to the resources section below to find and install a dedicated _roles & capabilities_ management plugin.
 
-##### Tips
+### Tips
+
+**_PRO Only_ - Allowing adding Customers at POS checkout:**
+WC POS Pro allows to _create Customers at the checkout phase_ but this feature requires the User who operates the POS to have the `create_users` capability. **WooCommerce Shop Managers** do not have this capability by default and _it must be enabled for full POS operations_.
 
 **Promoting default WP Roles:**
 A quick way to allow a user to both operate the WP website and the POS is to add the `access_woocommerce_pos` capability and any WooCommerce capabilities deemed necessary to any of the default WordPress roles.
