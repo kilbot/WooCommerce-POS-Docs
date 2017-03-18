@@ -1,10 +1,10 @@
 ---
 title: Number Pads
-description: WooCommerce POS uses a number of number pad components to allow quick input using the mouse or touch screen.
+description: WooCommerce POS uses number pad components to allow quick input using the mouse or touch screen.
 tags: ipad, number-pad, tablet, touch-screen
 ---
 
-WooCommerce POS uses a number of number pad components to allow quick input using the mouse or touch screen. 
+WooCommerce POS uses number pad components to allow quick input using the mouse or touch screen. 
 Below is examples of the different types of number pads: 
 
 ![Quantity number pad with quick entry for +1 and -1.](http://wcpos.com/wp-content/uploads/2014/09/quantity-numpad.png "Quantity number pad with quick entry for +1 and -1")
