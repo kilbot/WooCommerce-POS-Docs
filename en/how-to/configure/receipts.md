@@ -1,40 +1,39 @@
 ---
 title: Receipts
-description: Receipts can be customised by copying the receipt.php template in your theme directory.
-tags: customise, date, handlebars, moment.js, printing, receipts, template, theme
+description: 
+tags: 
 ---
 
-The POS receipt print templates reside in the `includes/views/print/tmpl-receipt.php` file of both the free and the Pro plugins. Receipt templates can be customised by creating a `woocommerce-pos/print/tmpl-receipt.php` file in your theme directory. The code for both templates is included below.
 
-### Basic Receipt Template
+The settings for receipts can be found via `WP Admin > POS > Settings > Receipts`. 
+Under the *Receipt Options* tab you can choose to automatically print a receipt after every sale, you can also set the print method and template language. 
+Under the *Receipt Template* tab you can customise the receipt template.
 
-{% gist id="kilbot/04b4a4f1c2792b4efff5" %}{% endgist %}
+* [Setting up your printer](#setting-up-your-printer) 
+* [Customising your receipt template](#customising-your-receipt-template)
 
-### Pro Receipt Template
 
-The Pro Receipt Template allows additional information from the [Stores](stores.html) admin such as logo, store address, opening hours and special messages. 
+### Setting up your printer 
 
-{% gist id="kilbot/c9485366a73ceda12041" %}{% endgist %}
 
-### Customising the receipt date
+WooCommerce POS is a javascript web application which runs in the browser. 
+Printing from the browser to a standard A4 laser printer should be straight forward for most users, however, printing to a thermal receipt printer often presents a lot of technical challenges. 
+Version 0.5 introduces some experimental settings which may assist to print to a thermal receipt printer. 
 
-WooCommerce POS uses [moment.js](http://momentjs.com/) to localise the date strings. The default date format is `"MMMM Do YYYY, h:mm:ss a"`, eg: May 31st 2015, 7:20:44 pm. Please consult the [moment.js documentation](http://momentjs.com/docs/#/parsing/string-format/) for more information on customising the date format.
+We are aware that using WooCommerce POS with a thermal receipt printer can be a confusing and frustrating task - especially for non-technical users. 
+Improving this experience is a high priority before WooCommerce POS graduates to version 1.0, but you should be aware of the current limitations when evaluating whether WooCommerce POS is suitable for your store.
 
-### Order Properties
+![Experimental print options introduced in version 0.5](http://wcpos.com/wp-content/uploads/2017/03/experimental-print-options.png)
 
-WooCommerce POS uses the json output from the WC REST API to populate the order receipt template. [The WC REST API docs show an example](http://woothemes.github.io/woocommerce-rest-api-docs/#view-an-order) of the standard json output. Some additional properties have been added by WooCommerce POS using the `woocommerce_api_order_response` filter.
+The default print settings are HTML via the browser, it is recommended you keep these settings unless you are comfortable to experiment and troubleshoot any issues that may arise. 
+The table below is intended as a guide for common combinations of settings.
 
-| Property | Description |
-| - | - |
-| cart_discount_tax |  The tax portion of the cart discount |
-| cashier.id | User ID of the Cashier |
-| cashier.first_name | First name of the Cashier |
-| cashier.last_name | Last name of the Cashier |
-| payment_details.result | Payment gateway success or failure |
-| payment_details.message | Any messages from the payment gateway |
-| payment_details.redirect | Redirect URL for offsite payments, eg: PayPal Standard |
-| payment\_details.method_{gateway} | Any gateway specific messages, eg: Amount Tendered and Change |
-| shipping_lines[i].total_tax | Add tax amount for each shipping line |
-| subtotal_tax | The tax portion of the subtotal |
+| Method | Language | When to use |
+| - | - | - |
+| [Browser](./receipts/print-method.md#browser) | [HTML](./receipts/template-language.md#html) | For standard laser printers |
+| [Network](./receipts/print-method.md#network) | [ePOS Print](./receipts/template-language.md#html) | For network connected Epson thermal receipt printers |
+| [QZ Tray](./receipts/print-method.md#qz-tray) | [ePOS Print](./receipts/template-language.md#epos-print) | For USB connected Epson thermal receipt printers |
+| [QZ Tray](./receipts/print-method.md#qz-tray) | [ESC/POS](./receipts/template-language.md#escpos) | For other thermal receipt printers |
+| [Print to File](./receipts/print-method.md#print-to-file) | Any | For debugging |
 
-{% gist id="kilbot/d224c0d4f7a8ed26bf28" %}{% endgist %}
+### Customising your receipt template
