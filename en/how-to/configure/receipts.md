@@ -31,8 +31,8 @@ The table below is intended as a guide for common combinations of settings.
 | Method | Language | When to use |
 | - | - | - |
 | [Browser](./receipts/print-method.md#browser) | [HTML](./receipts/template-language.md#html) | For standard laser printers |
-| [Network](./receipts/print-method.md#network) | [ePOS Print](./receipts/template-language.md#html) | For network connected Epson thermal receipt printers |
-| [QZ Tray](./receipts/print-method.md#qz-tray) | [ePOS Print](./receipts/template-language.md#epos-print) | For USB connected Epson thermal receipt printers |
+| [Network](./receipts/print-method.md#network) | [ePOS Print](./receipts/template-language.md#html) | For network connected Epson TM thermal receipt printers |
+| [QZ Tray](./receipts/print-method.md#qz-tray) | [ePOS Print](./receipts/template-language.md#epos-print) | For USB connected Epson TM thermal receipt printers |
 | [QZ Tray](./receipts/print-method.md#qz-tray) | [ESC/POS](./receipts/template-language.md#escpos) | For other thermal receipt printers |
 | [Print to File](./receipts/print-method.md#print-to-file) | Any | For debugging |
 
