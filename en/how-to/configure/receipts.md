@@ -10,7 +10,7 @@ Under the *Receipt Options* tab you can choose to automatically print a receipt 
 Under the *Receipt Template* tab you can customise the receipt template.
 
 * [Setting up your printer](#setting-up-your-printer) 
-* [Customising your receipt template](#customising-your-receipt-template)
+* [Editing your receipt template](#editing-your-receipt-template)
 
 
 ### Setting up your printer 
@@ -32,8 +32,17 @@ The table below is intended as a guide for common combinations of settings.
 | - | - | - |
 | [Browser](./receipts/print-method.md#browser) | [HTML](./receipts/template-language.md#html) | For standard laser printers |
 | [Network](./receipts/print-method.md#network) | [ePOS Print](./receipts/template-language.md#html) | For network connected Epson TM thermal receipt printers |
-| [QZ Tray](./receipts/print-method.md#qz-tray) | [ePOS Print](./receipts/template-language.md#epos-print) | For USB connected Epson TM thermal receipt printers |
 | [QZ Tray](./receipts/print-method.md#qz-tray) | [ESC/POS](./receipts/template-language.md#escpos) | For other thermal receipt printers |
 | [Print to File](./receipts/print-method.md#print-to-file) | Any | For debugging |
 
-### Customising your receipt template
+### Editing your receipt template
+
+![Editing the receipt template](http://wcpos.com/wp-content/uploads/2017/03/receipt-template.png)
+
+Editing the receipt template can be done easily through the `WP Admin > POS > Settings > Receipts > Receipt Template` interface. 
+Raw template code is shown in the left panel, while a preview is shown in the right panel. 
+Previews for HTML templates can be seen immediately on save. 
+Previews for other [template languages](./receipts/template-language.md) are not currently available, but users can still click the _Print_ button to test any changes.
+Each receipt template is stored in the WordPress database.
+
+For more information on customising your receipt template, please read the [Customising the Template](./receipts/customising-the-template.md) documentation.

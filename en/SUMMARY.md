@@ -33,7 +33,7 @@
     * [Emails](/how-to/configure/checkout/emails.md)
     * [Payment Gateways](/how-to/configure/checkout/payment-gateways.md)
   * [Receipts](/how-to/configure/receipts.md)
-    * [Templates](/how-to/configure/receipts/templates.md)
+    * [Customising the Template](/how-to/configure/receipts/customising-the-template.md)
     * [Print Method](/how-to/configure/receipts/print-method.md)
     * [Template Language](/how-to/configure/receipts/template-language.md)
   * [HotKeys](/how-to/configure/hotkeys.md)
