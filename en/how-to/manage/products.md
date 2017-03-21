@@ -1,5 +1,5 @@
 ---
-title: Product Stocktake
+title: Manage Products
 description:  
 tags: 
 ---

@@ -43,9 +43,11 @@
     * [Multi-inventory](/how-to/configure/stores/multi-inventory.md)
     * [Opening Hours](/how-to/configure/stores/opening-hours.md)
 
-* [Manage Products](/how-to/manage-products.md)
-* [Manage Orders](/how-to/manage-orders.md)
-* [Manage Customers](/how-to/manage-customers.md)
+* Manage Store
+  * [Manage Products](/how-to/manage/products.md)
+  * [Manage Orders](/how-to/manage/orders.md)
+  * [Manage Customers](/how-to/manage/customers.md)
+  * [Manage Coupons](/how-to/manage/coupons.md)
 
 * View Reports
   * [Admin Reports](/how-to/view-reports/wc-admin-reports.md)

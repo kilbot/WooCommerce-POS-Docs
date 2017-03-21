@@ -13,7 +13,13 @@ tags: customise, date, handlebars, moment.js, printing, receipts, template, them
 
 ### Overview
 
+Customising the receipt template can be done easily through the `WP Admin > POS > Settings > Receipts > Receipt Template` interface. 
+Each template is stored in the WordPress database, so there is no need to FTP to your server to upload theme files. 
+The settings include an option to restore the default template should you encounter an error with your custom template. 
 
+**Receipt templates in WooCommerce POS are rendered in the browser at runtime - they are not generated on the server like a webpage**. 
+You can not use PHP functions or object properties in your template, this will cause an error. 
+Each receipt is populated with order properties from WC REST API, this data is rendered using a Javascript templating library called [Handlebars](http://handlebarsjs.com/).
 
 ### Order Properties
 
