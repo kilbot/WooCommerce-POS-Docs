@@ -4,24 +4,55 @@ description: WooCommerce POS is able to filter products by the SKU field, this a
 tags: barcode, barcode-scanning, filtering, search, sku, sku-field
 ---
 
-WooCommerce POS is able to filter products by the SKU field. If a search matches the barcode field exactly the product is added to the cart instantly and the search field is reset. If you have a barcode scanner that is able to populate the search field then you should be use WooCommerce POS for barcode scanning. 
+* [Searching with the Barcode Prefix](#searching-with-the-barcode-prefix)
+* [Barcode Mode](#barcode-mode)
+* [Using a Barcode Scanner](#using-a-barcode-scanner)
+* [Test Your Barcode Scanner](#test-your-barcode-scanner)
+* [Using a Custom Barcode Field](#using-a-custom-barcode-field)
 
-To see the SKU search in action please go to http://demo.wcpos.com/pos/ 
+### Searching with the Barcode Prefix
 
-Type (or copy & paste) `BARCODE` and an item will be added to the cart. 
 
-Type (or copy & paste) `VARIATION1` and a variation will be added to the cart. 
 
-![Barcode Scanning in WooCommerce POS](http://wcpos.com/wp-content/uploads/2014/07/barcode-search.png "Filtering by the SKU field in WooCommerce POS")
+### Barcode Mode
 
-The following features are being planned for future releases:
+Searching for a product in _barcode mode_ will trigger the following:
 
-*   Add products to WooCommerce using barcode scanner. This will be part of a stocktake mode being planned for a 0.3.x release.
-*   Barcode scanning using mobile device camera. This will require a native WooCommerce POS app to gain access to the device hardware. Native apps are on the wish list but adding features to the web version is the highest priority at the moment.
-*   Hot key activation
+1. a search will be executed using the `barcode` prefix, eg: `barcode:123456789`
+2. then;
+	1. if a unique and exact match is found, the product is added to the cart
+	2. if the search result is not unique and exact, the found products will be displayed
 
-### Updates
+You can switch to _barcode mode_ using the following methods:
 
-**Since Version 0.3.1:** There is now a dedicated mode for Barcode scanning. You can switch between 'Search' mode and 'Scan Barcode' by clicking on the button to the left of the search field. 
+* click on the search icon and select Scan Barcode, or
+* use the HotKey, `shift+B` by default, or
+* rapid keypresses, such as a [barcode scanner](#using-a-barcode-scanner), will automatically trigger barcode mode
 
 ![Search Scan Barcode modes](http://wcpos.com/wp-content/uploads/2014/07/search-scan-mode.png)
+
+### Using a Barcode Scanner
+
+{% hint style='info' %}
+Previous to version 0.5, WooCommerce POS used a prefix character to trigger barcode mode. 
+This caused a lot of confusion for non-technical users. 
+WooCommerce POS now uses a timing trigger to automatically detect barcode scanning.
+{% endhint %}
+
+A barcode scanner is an input device, just like your keyboard. 
+WooCommerce POS uses a timing mechanism to detect barcode scanning. 
+If a sufficient number of keypresses happen in quick succession, the POS will automatically trigger [_barcode mode_](#barcode-mode).
+
+### Test Your Barcode Scanner
+
+To test whether your barcode scanner is compatible with WooCommerce POS, simply click on the input field below and scan a barcode. 
+The input field should be populated with your barcode. 
+If your barcode scanner adds any prefix or suffix characters, please consult your scanner manual to remove these characters.
+
+<textarea style="width:100%;height:50px;border:1px solid #ddd;" placeholder="click here, then scan a barcode"></textarea>
+
+### Using a Custom Barcode Field
+
+By default, WooCommerce POS will use the SKU as the barcode field. 
+It is possible to configure another custom field for your barcodes. 
+For information on how to use a custom barcode field, please read the [Custom Barcode Field](/how-to/configure/products/custom-barcode-field.md) documentation.

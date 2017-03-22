@@ -27,6 +27,9 @@
 
 * Configure the POS
   * [Products](/how-to/configure/products.md)
+    * [POS Only Products](/how-to/configure/products/pos-only-products.md)
+    * [Custom Barcode Field](/how-to/configure/products/custom-barcode-field.md)
+    * [Tabs](/how-to/configure/products/tabs.md)
   * [Cart](/how-to/configure/cart.md)
   * [Customers](/how-to/configure/customers.md)
   * [Checkout](/how-to/configure/checkout.md)
@@ -53,10 +56,15 @@
   * [Admin Reports](/how-to/view-reports/wc-admin-reports.md)
   * [z-Report](/how-to/view-reports/z-report.md)
 
-### Support
+### Hardware
+* [Barcode Scanners]()
+* [Card Readers]()
+* [Printers]()
+
+### Troubleshooting
 * [Legacy Servers](support/legacy-servers.md)
 * [Plugin Conflicts](support/plugin-conflicts.md)
-* [POS Hosting](support/hosting.md)
-* [POS Performance](support/pos-performance.md)
+* [Hosting](support/hosting.md)
+* [Performance](support/performance.md)
 * [Debugging](support/debugging.md)
 * [Security](support/security.md)
