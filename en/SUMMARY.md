@@ -30,7 +30,6 @@
   * [Products](/how-to/configure/products.md)
     * [POS Only Products](/how-to/configure/products/pos-only-products.md)
     * [Custom Barcode Field](/how-to/configure/products/custom-barcode-field.md)
-    * [Tabs](/how-to/configure/products/tabs.md)
   * [Cart](/how-to/configure/cart.md)
   * [Customers](/how-to/configure/customers.md)
   * [Checkout](/how-to/configure/checkout.md)

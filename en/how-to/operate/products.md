@@ -42,7 +42,7 @@ You can also trigger the sync using a [HotKey](./hotkeys.md), eg: `shift+S`.
 
 Product tabs provide a quick way to apply filters to your product list. 
 WooCommerce POS is configured with three tabs by default. 
-Custom tabs can be configured in the [product settings](/how-to/configure/products/tabs.md) using [search phrases](./products/searching-filtering.md). 
+Custom tabs can be configured in the [product settings](/how-to/configure/products.md#product-tabs) using [search phrases](./products/searching-filtering.md). 
 
 
 ### Products List
@@ -50,7 +50,7 @@ Custom tabs can be configured in the [product settings](/how-to/configure/produc
 Your products are organised alphabetically by _title_ in an infinitely scrolling list. 
 WooCommerce POS currently supports _simple_ and _variable_ products. 
 Simple products can be added to the cart using the green `+` button. 
-For variable products, the _variations_ can be accessed using the `>` button, or by clicking on the 'Expand' link.
+For variable products, the _variations_ can be accessed using the `>` button, or by clicking on the _Expand_ link.
 
 ![Example of the Product List with simple and variable products](http://wcpos.com/wp-content/uploads/2017/03/product-list.png)
 

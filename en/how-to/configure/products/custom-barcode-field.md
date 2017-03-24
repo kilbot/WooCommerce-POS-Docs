@@ -15,8 +15,9 @@ By default, WooCommerce POS will use the SKU field as the barcode.
 
 ### Select a Custom Barcode Field
 
-[WooCommerce POS Pro](http://wcpos.com/pro) users can use any product meta field by selecting a Barcode Field in `WP Admin > POS > Settings > Products`.
-If the post meta field for your barcodes does not exist, you can create a custom field using the `Add new field` link.
+[WooCommerce POS Pro](http://wcpos.com/pro) users can use any product meta field by selecting a Barcode Field in `WP Admin > POS > Settings > Products`. 
+The select dropdown will allow you to search all existing post meta field keys. 
+If the post meta field for your barcodes does not exist, you can create a custom field using the _Add new field_ link.
 
 ![Select custom barcode field in WooCommerce POS Pro](http://wcpos.com/wp-content/uploads/2017/03/set-custom-barcode-field.png "Select custom barcode field in WooCommerce POS Pro")
 
