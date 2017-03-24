@@ -8,7 +8,7 @@ Not to be confused with English or Español, in this case language refers to the
 Most of us are familiar with HTML which is used to render a webpage and prints to the common laser printer. 
 However, HTML lacks certain instructions which are common for point of sales receipt printing, such as `line feed` and `paper cut`. 
 To allow an expanded set of instructions, most thermal receipt printers use either ePOS Print or ESC/POS. 
-The right template language for you will depend on your hardware.
+The right template language for you will depend on your printer.
 
 | Template language | Printer |
 | - | - | 
@@ -29,7 +29,7 @@ Most WordPress users are familiar with HTML and CSS syntax, which makes it the m
 ### ePOS Print
 
 ePOS Print is an attempt from Epson to update their proprietary print commands for use in modern point of sales scenarios. 
-ePOS Print use XML and can be sent from a web application directly to a supported Epson TM Printer. 
+ePOS Print allows for direct communication between a web application and the printer via SOAP/XML. 
 
 [Click here](https://github.com/kilbot/WooCommerce-POS/blob/master/includes/views/print/receipt-epos-print.php) for an example of an ePOS Print receipt template for WooCommerce POS.
 

@@ -22,6 +22,11 @@ Some modern printers are able to receive raw commands directly over the network.
 These printers are ideal for use with tablets or mobile phones as they don't need a special printer driver.
 Espon often calls these *intelligent* printers, such as the [Epson TM-T70-i Intelligent Printer](http://www.epson.com.au/pos/products/receiptprinters/DisplayMain.asp?id=TM-T70-i) or the [Epson TM-T88V-i Intelligent Printer](http://www.epson.com.au/pos/products/receiptprinters/DisplayMain.asp?id=tmt88v-i).
 
+To use the network setting you will need to supply a URL for your printer or print server. 
+An example URL for Epson TM printers is `http://192.168.192.168/cgi-bin/epos/service.cgi?devid=local_printer&timeout=10000`, where `192.168.192.168` is the static IP address of your printer. 
+
+To find the correct URL for your printer please consult your printer manual, or try google, eg: 'Epson TM-T88V-i static IP address'.
+
 To test whether your browser can print to your network attached printer, please try the [ePOS Network Print Test](http://wcpos.com/support/epos-network-print.html).
 
 ### QZ Tray
