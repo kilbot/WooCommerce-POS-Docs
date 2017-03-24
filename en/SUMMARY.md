@@ -24,6 +24,7 @@
     * [Parked Carts](/how-to/operate/cart/parked-carts.md)
   * [Checkout](/how-to/operate/checkout.md)
   * [Receipts](/how-to/operate/receipts.md)
+  * [HotKeys](/how-to/operate/hotkeys.md)
 
 * Configure the POS
   * [Products](/how-to/configure/products.md)
