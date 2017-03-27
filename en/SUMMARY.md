@@ -1,6 +1,7 @@
 # Table of Contents
 
 * [Introduction](README.md)
+* [What's New?](whats-new.md)
 
 ### Getting started
 * [Installation](/getting-started/installation.md)
@@ -14,7 +15,7 @@
     * [Search and Filtering](/how-to/operate/products/searching-filtering.md)
     * [Barcode Scanning](/how-to/operate/products/barcode-scanning.md)
     * [Miscellaneous Products](/how-to/operate/products/miscellaneous-products.md)
-  * Cart
+  * [Cart](/how-to/operate/cart.md)
     * [Line Items](/how-to/operate/cart/line-items.md)
     * [Number Pads](/how-to/operate/cart/number-pads.md)
     * [Customers](/how-to/operate/cart/customers.md)

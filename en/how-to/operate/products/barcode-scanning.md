@@ -27,7 +27,7 @@ Searching for a product in _barcode mode_ will trigger the following:
 1. a search will be executed using the `barcode` operator, eg: `barcode:123456789`
 2. then;
 	1. if a unique and exact match is found, the product is added to the cart
-	2. if the search result is not unique and exact, the found products will be displayed
+	2. if the search result is not unique (ie: duplicate barcodes), the found products will be displayed
 
 You can switch to _barcode mode_ using the following methods:
 
