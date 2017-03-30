@@ -24,6 +24,7 @@
     * [Discounts](/how-to/operate/cart/discounts.md)
     * [Parked Carts](/how-to/operate/cart/parked-carts.md)
   * [Checkout](/how-to/operate/checkout.md)
+    * [Card Reader](/how-to/operate/checkout/card-reader.md)
   * [Receipts](/how-to/operate/receipts.md)
   * [HotKeys](/how-to/operate/hotkeys.md)
 

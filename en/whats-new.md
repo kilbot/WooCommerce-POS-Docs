@@ -11,3 +11,5 @@ Please review the documentation to familiarise yourself with the new features.
 * [Set Shipping and Fee Default Values]()
 * [Re-open Orders]()
 * [Experimental Printer Settings](/how-to/configure/receipts.md)
+
+For a full list of changes, please view the [changelog](https://wordpress.org/plugins/woocommerce-pos/#changelog). 
