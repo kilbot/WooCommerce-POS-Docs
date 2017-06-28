@@ -24,6 +24,10 @@ If you do not use POS Only Products it is recommended you leave this option disa
 By default, WooCommerce will expect [line item](/how-to/operate/cart/line-items.md) quantities to be a positive integer. 
 Enabling decimal quantities will use the `woocommerce_stock_amount` filter to allow decimal quantities, eg `0.25`.
 
+Enabling decimal quantities in WooCommerce POS will not necessarily allow decimal input on your website, this will depend on your theme. 
+The `woocommerce_quantity_input_step` filter may be required to allow customers to input decimal quantities. 
+The [Quantities and Units for WooCommerce](https://wordpress.org/plugins/quantities-and-units-for-woocommerce/) plugin may also be useful to set minimum, maximum and step values by product.  
+
 
 ### Barcode Field
 
